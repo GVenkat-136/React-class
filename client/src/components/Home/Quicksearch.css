@@ -1,0 +1,81 @@
+/* Quick_search Section CSS   */
+.blocks-wrapper{
+  position: relative;
+  left: 100%;
+}
+#Quick_search {
+   width: 100%;
+   height: auto;
+   display: flex;
+   justify-content: center;
+   justify-items: center;
+ }
+ .quicksearch_block {
+   width: 70%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   justify-items: center;
+   row-gap: 1rem;
+   margin-top: 2%;
+ }
+ .quicksearch_heading h1 {
+   font-size: 50px;
+   font-weight: bold;
+   font-weight: lighter !important;
+   color: red;
+ }
+ .quicksearch_caption p {
+   font-size: 17px !important;
+   letter-spacing: 0.1rem;
+   font-weight: lighter !important;
+ }
+ .quicksearch_restaurant {
+   margin-top: 1%;
+   display: grid;
+   grid-template-columns: 31% 31% 31%;
+   column-gap: 3rem;
+   row-gap: 3rem;
+ }
+ .card_body {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+   height: auto !important;
+   border-radius: 10px;
+   border: none;
+ }
+ .card_body:hover {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+   rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+ }
+ .restuarant_img img{
+   width: 100%;
+   background-size: cover;
+   border-radius: 15px;
+ }
+ .restuarant_img img{
+  border-radius: 10px;
+  height: 200px;
+ }
+ .restuarant_details {
+   display: flex;
+   flex-direction: column;
+   row-gap: 0.2rem;
+ }
+ .name_price,
+ .location_details {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   row-gap: 2rem;
+ }
+ .name_price{
+   font-size: 16px !important;
+   font-weight: bold;
+   text-align: center;
+ }
+ .location_details p {
+   font-size: 14px;
+ }
+ 

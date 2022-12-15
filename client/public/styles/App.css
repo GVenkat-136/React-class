@@ -1,0 +1,22 @@
+/* Tag based CSS */
+li {
+   list-style: none !important;
+ }
+ a {
+   text-decoration: none !important;
+   color: black;
+ }
+ .margin-top {
+   margin-top: 40px;
+ }
+ /* END Tag based CSS */
+ 
+ * {
+   margin: 0%;
+   padding: 0%;
+   font-family: sans-serif;
+   font-size: 18px;
+   font-weight: lighter;
+   box-sizing: border-box;
+ }
+ 
